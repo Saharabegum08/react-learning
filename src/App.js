@@ -1,13 +1,16 @@
-
-import './App.css';
-import HelloWorld from './components/HelloWorld'
+import React from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <HelloWorld/>
+  const arr = ["React Js", "Node Js", "Express Js", "Angular Js"]
+  return(
+    <div>
+      {
+        arr.map(
+          (value,index) => <li key={index}>{value}</li>
+        )
+      }
     </div>
-  );
+  )
 }
 
 export default App;
