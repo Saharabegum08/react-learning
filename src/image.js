@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactLogo from './react.png';
 
-const App = () => {
+const Image = () => {
   return (
     <div>
       <center>
@@ -12,4 +12,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default Image;
