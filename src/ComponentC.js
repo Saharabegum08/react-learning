@@ -1,5 +1,5 @@
 import React from 'react'
-import {UserContext} from './App.js';
+import {UserContext} from './App.js'
 
 const ComponentC = () => {
   return (
